@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace guessGameZach.Properties {
+namespace RandomNumber.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace guessGameZach.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("guessGameZach.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RandomNumber.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,19 +63,9 @@ namespace guessGameZach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap checkmark {
+        internal static System.Drawing.Bitmap dice_jpg_scaled1000 {
             get {
-                object obj = ResourceManager.GetObject("checkmark", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap red_x {
-            get {
-                object obj = ResourceManager.GetObject("red_x", resourceCulture);
+                object obj = ResourceManager.GetObject("dice.jpg.scaled1000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
