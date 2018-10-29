@@ -39,9 +39,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(55, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(462, 29);
+            this.label1.Size = new System.Drawing.Size(468, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "press buton to generate a random number";
+            this.label1.Text = "press button to generate a random number";
             // 
             // btnGen
             // 
