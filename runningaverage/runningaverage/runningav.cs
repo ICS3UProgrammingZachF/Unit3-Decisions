@@ -8,13 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace unicode
+namespace runningaverage
 {
-    public partial class Form1 : Form
+    public partial class runningav : Form
     {
-        public Form1()
+        //local verubles
+        int avg = 0, markstotal = 0, marks = 0;
+
+
+
+
+
+
+        public runningav()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

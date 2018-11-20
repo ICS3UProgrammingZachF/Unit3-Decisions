@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace unicode
+namespace runningaverage
 {
-    static class Program
+    static class avruning
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace unicode
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new runningav());
         }
     }
 }

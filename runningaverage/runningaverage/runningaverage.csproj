@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{254993E3-3642-4A06-BC30-788C8DE7A33C}</ProjectGuid>
+    <ProjectGuid>{AC25828D-B389-4701-9F37-691725848BFC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>unicode</RootNamespace>
-    <AssemblyName>unicode</AssemblyName>
+    <RootNamespace>runningaverage</RootNamespace>
+    <AssemblyName>runningaverage</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,14 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Unicode.cs">
+    <Compile Include="runningav.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unicode.Designer.cs">
-      <DependentUpon>Unicode.cs</DependentUpon>
+    <Compile Include="runningav.Designer.cs">
+      <DependentUpon>runningav.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unicodes.cs" />
+    <Compile Include="avruning.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="runningav.resx">
+      <DependentUpon>runningav.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,9 +65,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Unicode.resx">
-      <DependentUpon>Unicode.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
