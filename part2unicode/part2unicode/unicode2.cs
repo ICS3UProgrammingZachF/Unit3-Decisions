@@ -31,7 +31,8 @@ namespace part2unicode
 
             //clear the list box
             lstUnicode.Items.Clear();
-
+            
+            //loop inside of a loop
             for (unicode_conter_caps = 65; unicode_conter_caps <= UNICODE_CAPTIALS; unicode_conter_caps++)
             {
               
