@@ -32,6 +32,8 @@
             this.txt = new System.Windows.Forms.TextBox();
             this.lbltotal = new System.Windows.Forms.Label();
             this.lblaverage = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn
@@ -69,11 +71,31 @@
             this.lblaverage.TabIndex = 3;
             this.lblaverage.Text = " ";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(219, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "mark";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(214, 171);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "average";
+            // 
             // form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 260);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblaverage);
             this.Controls.Add(this.lbltotal);
             this.Controls.Add(this.txt);
@@ -91,6 +113,8 @@
         private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.Label lbltotal;
         private System.Windows.Forms.Label lblaverage;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

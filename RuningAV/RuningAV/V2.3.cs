@@ -30,10 +30,10 @@ namespace RuningAV
             mark = double.Parse(txt.Text);
 
             //this makes you only enter a value between 1 - 100
-            if (mark > 0 && mark < 100)
+            if (mark > 0 && mark < 101)
             {
-                total += mark;
                 nummarks++;
+                total += mark;
                 average = total / nummarks;
             }
 
